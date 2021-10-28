@@ -1,0 +1,28 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-size: 12px;
+}
+
+header {
+  text-align: center;
+}
+
+span {
+  color: #4e9f3d;
+}
+
+.textDivider {
+  height: 1px;
+  background-color: #fefefe;
+  width: 100%;
+}
+
+@media (min-width: 370px) {
+  .app {
+    font-size: 16px;
+  }
+}
